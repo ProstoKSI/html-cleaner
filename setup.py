@@ -21,7 +21,7 @@ META_DATA = dict(
     name = PROJECT,
     version = VERSION,
     description = read('DESCRIPTION'),
-    long_description = read('README.md'),
+    long_description = read('README.rst'),
     license='MIT',
 
     author = "Illia Polosukhin",
