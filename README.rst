@@ -7,6 +7,12 @@ Html cleaner and sanitizer for Python projects and as standalone app
 
 .. contents::
 
+Requirements
+==============
+
+- python >= 2.5
+- BeautifulSoup 
+
 Use html-cleaner
 ==============
 
