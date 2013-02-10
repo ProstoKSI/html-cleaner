@@ -3,7 +3,7 @@
 import os
 from setuptools import setup, find_packages
 
-from voter import VERSION, PROJECT
+from html_cleaner import VERSION, PROJECT
 
 
 MODULE_NAME = 'html-cleaner'
