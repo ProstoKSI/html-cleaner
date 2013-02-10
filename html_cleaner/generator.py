@@ -219,8 +219,8 @@ if __name__ == "__main__":
     if len(sys.argv) == 1:
         code = generate_code("strict.cfg", "cleaner.py")
         import cleaner
-        text = open('../test/test.txt').read()
-        print(clear.clear_html_code(text))
+        text = open('test/test.html').read()
+        print(cleaner.clear_html_code(text))
     elif len(sys.argv) == 3:
         config_file, output_file = sys.argv[1], sys.argv[2]
         code = generate_code(config_file, output_file)
