@@ -33,6 +33,7 @@ META_DATA = dict(
     package_data = { '': PACKAGE_DATA, },
 
     install_requires = [ 
+                        'beautifulsoup',
                        ],
 )
 
